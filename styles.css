@@ -1,0 +1,175 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+     height: 100vh;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%),
+                url('image.png') no-repeat center center;
+    background-size: cover;   
+    background-attachment: fixed
+}
+
+.main {
+    width: 100%;
+    height: 100vh;     
+} 
+.navbar {
+    width:100%;
+    height:75px;
+    display: flex;
+    padding:0 40px;
+    box-sizing: border-box;  
+    margin-top: 10px; 
+}
+.icon {
+    flex: 1;
+}
+.logo {
+    color:#ff7200;
+    font-size: 16px;
+    font-family:Arial;   
+}
+.menu ul {
+    display: flex;
+    list-style: none;
+}
+ul li {
+    list-style: none;
+    margin-left:50px;
+    font-size: 16px; 
+}
+ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+ul li a:hover {
+    color: #ff7200;
+}
+.search {
+   justify-content: flex-end;
+   margin-left: 20px;
+    
+}
+
+.search input {
+  
+    border-radius: 3px;
+    border: none;
+    padding: 5px 10px;
+    font-size: 16px;
+}
+.btn {
+
+    background-color: #ff7200;
+    border: 2px solid #ff7200;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+.btn:hover {
+    color: greenyellow;
+    
+}
+.srch {
+    width: 140px;
+    height: 20px;
+    background-color: none;
+}
+.content{
+    margin-left: 30px;
+    margin-top: 20px;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+}
+.content  h1{
+    color: #ff7200;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.content p{
+    font-size: 20px;
+    margin-bottom: 8px;
+}
+.content a {
+    text-decoration: none;
+    font-size: 15px;
+    color: antiquewhite;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.content a:hover {
+    color: greenyellow;
+
+}
+.form {
+    position: absolute;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    top:90px;
+    left: 950px;
+    border: 1px solid #ff7200;
+    border-radius: 3px;
+    padding: 20px;
+    width: 250px;
+    height: 380px;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0.5) 50%);
+    
+}
+h3 {
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    margin-bottom: 6px;
+    text-align: center;
+    background-color: #ff7200;
+    border: 2px solid #ff7200;
+    border-radius: 7px;
+    padding: 4px;
+}
+.form input{
+    width: 240px;
+    height: 30px;
+    background: transparent;
+    border-bottom: 1px solid #ff7200;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: white;
+    font-size: 15px;
+    margin-top: 30px;
+    letter-spacing: 1px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+.form input::placeholder{
+    color: #ff7200;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+ .btnn {
+    background-color: #ff7200;
+    border: 2px solid #ff7200;
+    color: white;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    height: 30px;
+    margin-top: 20px;
+ } 
+ .form p{
+    margin-top: 20px;
+    font-size: 12px;
+    color: #ff7200;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    font-weight: bold;
+ }
